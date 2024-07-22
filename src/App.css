@@ -1,0 +1,57 @@
+P {
+  font-size: 16px;
+  color: #262626
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-heading {
+  color: rgb(68, 158, 243);
+  font-size: 25px;
+}
+
+.underline {
+  height: 04px;
+  width: 4rem;
+  background-color: rgb(214, 118, 9);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-c-light {
+  background-color: #f2f2f2;
+}
+
+.slim-slider {
+  height: 500px;
+  overflow: hidden;
+}
+
+.slim-slider .carousel-item {
+  height: 100%;
+}
+
+.slim-slider .carousel-item img {
+  object-fit: cover;
+  /* Ensures the image covers the container */
+  height: 100%;
+  /* Makes the image take the full height of the container */
+  width: 100%;
+  /* Ensures the image takes the full width of the container */
+}
+
+.footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(214, 167, 38);
+}
+
+.py-4 {
+  background-color: skyblue;
+}
