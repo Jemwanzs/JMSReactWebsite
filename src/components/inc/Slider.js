@@ -20,8 +20,7 @@ function Slider() {
                             <source src={sliderVideo1} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <div className="watermark">Led by James Sammy, a seasoned full-stack developer
-                            with over six years of experience, we specialize in tailored automation solutions for businesses.</div>
+                        <div className="watermark">Led by James Sammy, a guru in Automations.</div>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -39,7 +38,7 @@ function Slider() {
                             <source src={sliderVideo3} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <div className="watermark">Visit the Contact us and send a message!</div>
+                        <div className="watermark">Contact us by leaving a message!</div>
                     </div>
                 </div>
             </div>
