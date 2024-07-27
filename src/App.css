@@ -119,3 +119,8 @@ p {
   object-fit: cover;
   /* Crop to fit container */
 }
+
+.nav-item {
+  background-color: gray;
+  border-radius: 5px;
+}
