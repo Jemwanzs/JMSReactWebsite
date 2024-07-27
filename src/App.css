@@ -4,7 +4,7 @@ P {
 }
 
 .section {
-  padding-top: 5px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
@@ -26,8 +26,9 @@ P {
 }
 
 .slim-slider {
-  height: 600px;
+  height: 500px;
   overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .slim-slider .carousel-item {
