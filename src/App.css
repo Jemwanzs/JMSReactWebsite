@@ -11,7 +11,7 @@ p {
 
 .slideshow-container {
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   /* Temporarily set to visible to check for layout issues */
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 .slim-slider {
-  height: 100%;
+  height: 600px;
   overflow: hidden;
 }
 
