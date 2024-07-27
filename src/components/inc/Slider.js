@@ -1,9 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import sliderImage1 from '../images/home3.jpg';
-import sliderImage2 from '../images/home2.jpg';
-import sliderImage3 from '../images/home1.jpg';
-
+import sliderVideo1 from '../videos/video1.mp4'; // Replace with the path to your video files
+import sliderVideo2 from '../videos/video2.mp4';
+import sliderVideo3 from '../videos/video3.mp4';
 
 function Slider() {
     return (
@@ -15,13 +14,22 @@ function Slider() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={sliderImage1} className="d-block w-100 slim-image" alt="Slide 1" />
+                    <video className="d-block w-100 slim-image" autoPlay loop muted>
+                        <source src={sliderVideo1} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div className="carousel-item">
-                    <img src={sliderImage2} className="d-block w-100 slim-image" alt="Slide 2" />
+                    <video className="d-block w-100 slim-image" autoPlay loop muted>
+                        <source src={sliderVideo2} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div className="carousel-item">
-                    <img src={sliderImage3} className="d-block w-100 slim-image" alt="Slide 3" />
+                    <video className="d-block w-100 slim-image" autoPlay loop muted>
+                        <source src={sliderVideo3} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
