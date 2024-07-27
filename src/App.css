@@ -4,7 +4,7 @@ P {
 }
 
 .section {
-  padding-top: 40px;
+  padding-top: 5px;
   padding-bottom: 40px;
 }
 
@@ -26,7 +26,7 @@ P {
 }
 
 .slim-slider {
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -38,9 +38,7 @@ P {
   object-fit: cover;
   /* Ensures the image covers the container */
   height: 100%;
-  /* Makes the image take the full height of the container */
   width: 100%;
-  /* Ensures the image takes the full width of the container */
 }
 
 .footer a {
