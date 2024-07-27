@@ -4,9 +4,22 @@ p {
   color: #262626;
 }
 
-.section {
-  padding-top: 40px;
+/*.section {
+  padding-top: 0px;
   padding-bottom: 40px;
+}*/
+
+.slideshow-container {
+  position: relative;
+  overflow: visible;
+  /* Temporarily set to visible to check for layout issues */
+}
+
+.section-below {
+  margin-top: 0;
+  /* Ensure there's no margin causing extra space */
+  padding-top: 0;
+  /* Ensure there's no padding causing extra space */
 }
 
 .main-heading {
@@ -28,12 +41,12 @@ p {
 }
 
 .slim-slider .carousel-item {
-  height: 500px;
+  height: 100%;
 }
 
 .slim-slider .carousel-item img {
   object-fit: cover;
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 
@@ -42,7 +55,7 @@ p {
 }
 
 .slim-slider {
-  height: 500px;
+  height: 100%;
   overflow: hidden;
 }
 
