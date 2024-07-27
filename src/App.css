@@ -25,11 +25,11 @@ P {
   background-color: #f2f2f2;
 }
 
-.slim-slider {
+/*.slim-slider {
   height: 500px;
   overflow: hidden;
   margin-bottom: auto
-}
+}*/
 
 .slim-slider .carousel-item {
   height: 100%;
@@ -53,4 +53,20 @@ P {
 
 .py-4 {
   background-color: skyblue;
+}
+
+.slim-slider {
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /* Default value for larger screens */
+}
+
+@media (max-width: 768px) {
+
+  /* Adjust the max-width value based on your needs */
+  .slim-slider {
+    margin-bottom: 10px;
+    /* Smaller value for mobile screens */
+  }
 }
