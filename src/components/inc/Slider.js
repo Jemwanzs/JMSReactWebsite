@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import sliderVideo1 from '../videos/video1.mp4'; // Replace with the path to your video files
+import sliderVideo1 from '../videos/video4.mp4'; // Replace with the path to your video files
 import sliderVideo2 from '../videos/video2.mp4';
 import sliderVideo3 from '../videos/video3.mp4';
 
