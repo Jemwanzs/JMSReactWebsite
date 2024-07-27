@@ -38,7 +38,6 @@ function Portfolio() {
 
                     <div className="col-md-6">
                         <div className="card shadow">
-
                             <div className="card-body">
                                 <img src={ImgPortfolio2} className="w-100 border-bottom" alt="Portfolio" />
                                 <img src={ImgPortfolio3} className="w-100 border-bottom" alt="Portfolio" />
