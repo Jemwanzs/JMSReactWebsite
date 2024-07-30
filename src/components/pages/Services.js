@@ -55,6 +55,13 @@ function Services() {
                                 <p>JMS Solutions, a pioneering software development startup, endeavors to be the ultimate solution for businesses
                                     by offering cutting-edge automation services. At the helm is James Sammy, the esteemed Full-Stack
                                     Software Developer.</p>
+                                <h6>Website Development</h6>
+                                <div className="underline"></div>
+                                <ul>
+                                    <li>Build,</li>
+                                    <li>Hosting,</li>
+                                    <li>Manage.</li>
+                                </ul>
                                 <h6>Google Sheets Automations</h6>
                                 <div className="underline"></div>
                                 <ul>
