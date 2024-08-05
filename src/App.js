@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
+import Purchase from './components/pages/Purchase';
 import Contact from './components/pages/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/inc/Footer';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/purchase" element={<Purchase />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

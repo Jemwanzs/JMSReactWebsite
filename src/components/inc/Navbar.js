@@ -28,6 +28,9 @@ function Navbar() {
                                             <Link to="/portfolio" className="nav-link text-white">Portfolio</Link>
                                         </li>
                                         <li className="nav-item">
+                                            <Link to="/purchase" className="nav-link text-white">Purchase</Link>
+                                        </li>
+                                        <li className="nav-item">
                                             <Link to="/contact" className="nav-link text-white">Contact</Link>
                                         </li>
                                     </ul>

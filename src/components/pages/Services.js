@@ -43,7 +43,7 @@ function Services() {
                                     </ul>
                                     <li>Development of web and mobile applications.</li>
                                 </ul>
-                                <Link to="/" className="btn btn-link">Read More</Link>
+                                <Link to="/contact" className="btn btn-link">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function Services() {
                                     <li>Creating complex Excel models and automations.</li>
                                     <li>Enhancing productivity with advanced Excel functionalities.</li>
                                 </ul>
-                                <Link to="/" className="btn btn-link">Read More</Link>
+                                <Link to="/contact" className="btn btn-link">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ function Services() {
                                     <li>Transforming complex business processes into seamless automated workflows.</li>
                                     <li>Tailoring automation solutions to specific business requirements.</li>
                                 </ul>
-                                <Link to="/" className="btn btn-link">Read More</Link>
+                                <Link to="/contact" className="btn btn-link">Contact Us</Link>
                             </div>
                         </div>
                     </div>
