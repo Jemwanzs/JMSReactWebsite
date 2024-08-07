@@ -125,3 +125,16 @@ p {
   background-color: gray;
   border-radius: 5px;
 }
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.card-link .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
