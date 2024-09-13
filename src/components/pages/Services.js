@@ -2,7 +2,6 @@ import React from 'react';
 import Service1 from '../images/code5.jpg'
 import Service2 from '../images/googlesheets1.jpg'
 import Service3 from '../images/analysis1.jpg'
-import { Link } from 'react-router-dom';
 
 function Services() {
     return (
