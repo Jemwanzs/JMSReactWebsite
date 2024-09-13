@@ -1,7 +1,5 @@
 import React from 'react';
 import ImgPortfolio1 from '../images/portfolio1.jpg'
-import ImgPortfolio2 from '../images/clientele1.PNG'
-import ImgPortfolio3 from '../images/clientele2.jpg'
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
@@ -33,7 +31,7 @@ function Portfolio() {
                             <li>School Management System: Tangara School</li>
                             <li>Loans Manager: Simos Credit</li>
                         </ul>
-                        <Link to="/" className="btn btn-link">Read More</Link>
+                        <Link to="/about" className="btn btn-link">Read More</Link>
                     </div>
 
                 </div>
